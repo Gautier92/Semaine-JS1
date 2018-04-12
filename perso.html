@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Page d'accueil</title>
+        <link rel="stylesheet" href="styles/perso.css">
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    </head>
+    <body>
+      <img src="sprites/arrow.png" class="arrow">
+      <img src="images/Coffreboisfermécôté.png" id="woodchest" alt="Coffreboisvermé">
+
+
+      <img src="sprites/map.png" id="map" alt="">
+      <div class="forChest">
+
+      </div>
+      <div class="popup">
+          <form name="thomas" method="get" class="popupForm">
+            <h2 class="question"></h2>
+            <div class="inputRadio">
+              <input type="radio" name="question" id="question1" value="choix1"/>
+              <label class="reponse0js" for="question1"></label>
+            </div>
+            <div class="inputRadio">
+              <input type="radio" name="question" id="question2" value="choix2"/>
+              <label class="reponse1js" for="question2"></label>
+            </div>
+            <div class="inputRadio">
+              <input type="radio" name="question" id="question3" value="choix3"/>
+              <label class="reponse2js" for="question3"></label>
+            </div>
+            <div class="inputRadio">
+              <input type="radio" name="question" id="question4" value="choix4"/>
+              <label class="reponse3js" for="question4"></label>
+            </div>
+            <div class="validatebutton">
+              <button type="button" class="confirm" name=confirm=>Valider</button>
+            </div>
+          </form>
+      </div>
+      <div class="compteur">
+        <p>Score = <span class="comptscore">0</span></p>
+      </div>
+
+      
+      <script type="text/javascript" src="scripts/perso.js"></script>
+    </body>
+    </html>

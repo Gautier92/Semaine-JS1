@@ -1,0 +1,100 @@
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+
+}
+
+
+header {
+
+}
+
+
+h1{
+    display: flex;
+    padding-top: 65px;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 100px;
+    position: relative;
+    color: white;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2{
+    display: flex;
+    padding-top: 5px;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    position: relative;
+    color: white;
+}
+
+/*.logo {
+    width: 100px;
+    height: 200px;
+    display: flex;
+    padding-top: 65px;
+    justify-content: center;
+    position: relative;
+*/
+
+.image{
+    margin-top: -70px;
+    display: flex;
+    position: absolute;
+    height: 100.4vh;
+    width: 100%;
+
+}
+
+.textbutton {
+    color: white;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    border: solid 5px red;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.textbutton:hover{
+    color: paleturquoise;
+}
+
+.textbutton2:hover{
+    color: paleturquoise;
+}
+
+.textbutton2 {
+    color: white;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+    border: solid 3px red;
+    padding: 3px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.button {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    position: relative;
+    z-index: 10;
+}

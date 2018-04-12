@@ -1,0 +1,84 @@
+.popup {
+    display : none;
+    width: 400px;
+    border-radius: 10px;
+    padding: 160px 55px 55px 55px;
+    font-family: 'Press Start 2P'
+}
+
+.popupForm h2{
+  font-size: 18px;
+  margin: 0 0 33px 0;
+}
+
+.popupForm{
+    background-color: rgb(246, 246, 246);
+    padding : 20px;
+    border-radius: 6px;
+        box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.1);
+}
+
+.inputRadio{
+  padding-left : 35px;
+  margin : 15px 5px 15px 5px;
+}
+
+.form {
+    width: 100%;
+
+}
+
+.mapcenter {
+    position: relative;
+    margin: 0 auto;
+
+}
+
+#woodchest {
+    position: absolute;
+    top: 60px;
+    left: 633px;
+}
+
+#map{
+    margin: 0 auto;
+    display: block;
+    float: left;
+    z-index: -1;
+    top:0px;
+    left:0px;
+    width: 688px;
+
+}
+#charac{
+    position:absolute;
+    height:32px;
+    width:32px;
+}
+.arrow{
+    position: absolute;
+    top: 470px;
+    left: 638px;
+    height:40px;
+    width:40px;
+}
+
+.validatebutton {
+    text-align: center;
+}
+
+.confirm {
+    width: 100px;
+    margin-top: 8px;
+}
+
+.compteur {
+    font-family: 'Press Start 2P', cursive;
+    color: red;   
+    position: absolute;
+    top: 0;
+    left: 700px;
+    font-size: 35px;
+    text-align: center;
+    margin-right: 5px;
+}
