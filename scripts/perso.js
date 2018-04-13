@@ -52,7 +52,8 @@ let coffre2 = {
 
 
 let collision2 = [
-    {ymin: 12 , ymax: 580 , xmin: -24 , xmax: 24},//buisson gauche
+    {ymin: 12 , ymax: 444 , xmin: -24 , xmax: 24},//buisson gauche
+    {ymin: 485 , ymax: 580 , xmin: -24 , xmax: 24},//buisson gauche bis
     {ymin: 516 , ymax: 580 , xmin: -24 , xmax: 684},// buisson bas
     {ymin: -12 , ymax: 580 , xmin: 636 , xmax: 684},//buisson droite
     {ymin: -12 , ymax: 24 , xmin: -24 , xmax: 560},// buisson haut
